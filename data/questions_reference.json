@@ -1,0 +1,17 @@
+[
+  {"langue": "fr", "question": "Un client peut-il rembourser son crédit à la consommation par anticipation ?", "attendus": ["31-08:Article 103"]},
+  {"langue": "fr", "question": "Quel est le délai pour revenir sur l'acceptation d'une offre préalable de crédit ?", "attendus": ["31-08:Article 85"]},
+  {"langue": "fr", "question": "Quel est le délai de rétractation pour une vente à distance ?", "attendus": ["31-08:Article 36"]},
+  {"langue": "fr", "question": "Une offre préalable écrite est-elle obligatoire avant un crédit à la consommation ?", "attendus": ["31-08:Article 77"]},
+  {"langue": "fr", "question": "Quelle sanction si le prêteur accorde un crédit sans offre préalable conforme ?", "attendus": ["31-08:Article 89"]},
+  {"langue": "fr", "question": "Une clause abusive dans un contrat est-elle valable ?", "attendus": ["31-08:Article 19"]},
+  {"langue": "fr", "question": "À partir de quel montant le contrat doit-il indiquer une date limite de livraison ?", "attendus": ["decret-2-12-503:Article 28 du décret", "31-08:Article 12"]},
+  {"langue": "fr", "question": "Quel est le rôle de Bank Al-Maghrib dans le contrôle des établissements de crédit ?", "attendus": ["103-12:Article 80"]},
+  {"langue": "fr", "question": "Le secret professionnel peut-il être opposé à Bank Al-Maghrib ?", "attendus": ["103-12:Article 181"]},
+  {"langue": "fr", "question": "Quel fonds indemnise les déposants d'une banque participative ?", "attendus": ["103-12:Article 67"]},
+  {"langue": "fr", "question": "Quel est le rôle du Conseil supérieur des Ouléma pour les banques participatives ?", "attendus": ["103-12:Article 62"]},
+  {"langue": "ar", "question": "هل يمكن للمقترض تسديد القرض الاستهلاكي قبل موعده؟", "attendus": ["31-08:Article 103"]},
+  {"langue": "ar", "question": "ما هو أجل التراجع بعد قبول العرض المسبق للقرض؟", "attendus": ["31-08:Article 85"]},
+  {"langue": "ar", "question": "ما هو دور بنك المغرب في مراقبة مؤسسات الائتمان؟", "attendus": ["103-12:Article 80"]},
+  {"langue": "ar", "question": "هل الشروط التعسفية في عقد الاستهلاك صحيحة؟", "attendus": ["31-08:Article 19"]}
+]

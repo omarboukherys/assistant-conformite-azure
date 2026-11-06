@@ -1,0 +1,22 @@
+Questions = COUNTROWS(fact_questions)
+
+Taux de refus = DIVIDE(CALCULATE([Questions], fact_questions[statut] = "refus"), [Questions])
+
+Taux escalade = DIVIDE(CALCULATE([Questions], fact_questions[statut] = "escalade"), [Questions])
+
+Taux de satisfaction =
+DIVIDE(
+    CALCULATE([Questions], fact_questions[feedback] = "utile"),
+    CALCULATE([Questions], NOT ISBLANK(fact_questions[feedback]))
+)
+
+Part questions en arabe = DIVIDE(CALCULATE([Questions], fact_questions[langue] = "ar"), [Questions])
+
+Latence moyenne (s) = DIVIDE(AVERAGE(fact_questions[latence_ms]), 1000)
+
+Latence P95 (s) = DIVIDE(PERCENTILE.INC(fact_questions[latence_ms], 0.95), 1000)
+
+Cout estime ($) = SUM(fact_questions[cout_estime_usd])
+
+-- Filtre RLS du rôle Region, à placer sur la table dim_agence :
+[region] IN CALCULATETABLE(VALUES(habilitations[region]), habilitations[email] = USERPRINCIPALNAME())
